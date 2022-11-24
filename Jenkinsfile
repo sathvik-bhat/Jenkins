@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/satvik-vm/se_ass6.git'
+                git 'https://github.com/sathvik-bhat/Jenkins.git'
             }
         }
         stage('Build Code') {
